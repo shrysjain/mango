@@ -1,18 +1,19 @@
+// app/editor/page.tsx
 import Head from 'next/head';
 
-const Home = () => {
+const Editor = () => {
   return (
     <div>
       <Head>
-        <title>Mango</title>
+        <title>Mango Note Editor</title>
       </Head>
       <main>
         <h1 className="text-3xl font-bold underline">
-          Welcome to Mango
+          Edit Your Note
         </h1>
       </main>
     </div>
   );
 }
 
-export default Home;
+export default Editor;

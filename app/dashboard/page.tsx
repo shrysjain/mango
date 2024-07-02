@@ -1,18 +1,19 @@
+// app/dashboard/page.tsx
 import Head from 'next/head';
 
-const Home = () => {
+const Dashboard = () => {
   return (
     <div>
       <Head>
-        <title>Mango</title>
+        <title>Mango Dashboard</title>
       </Head>
       <main>
         <h1 className="text-3xl font-bold underline">
-          Welcome to Mango
+          Your Notes Dashboard
         </h1>
       </main>
     </div>
   );
 }
 
-export default Home;
+export default Dashboard;
